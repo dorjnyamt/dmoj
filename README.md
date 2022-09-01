@@ -1,2 +1,2 @@
 # dmoj
-DMOJ Submission
+DMOJ Submissions
