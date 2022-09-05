@@ -6,11 +6,11 @@ while button != 4:
     times = int(input())
     while times > 0:
         if button == 1:
-            playlist = playlist[1:5] + playlist[0]
+            playlist = playlist[1:] + playlist[0]
         elif button == 2:
-            playlist = playlist[4] + playlist[0:4]
+            playlist = playlist[4] + playlist[:4]
         elif button == 3:
-            playlist = playlist[1] + playlist[0] + playlist[2:5]
+            playlist = playlist[1] + playlist[0] + playlist[2:]
 
         times = times - 1
 
